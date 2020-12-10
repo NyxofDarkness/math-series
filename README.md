@@ -13,3 +13,5 @@ math-series Whiteboard
 ![Math-series Whiteboard]()
 
 Worked with [Nebiyu Kifle](https://github.com/neba9)
+[geekforgeeks help with tests!](https://www.geeksforgeeks.org/python-program-for-how-to-check-if-a-given-number-is-fibonacci-number/)
+[help with tests! from trey hunter](https://treyhunner.com/2016/11/check-whether-all-items-match-a-condition-in-python/)

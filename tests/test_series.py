@@ -30,16 +30,16 @@ def test_one():
     assert actual == expected
 
 def test_two():
-    actual = fibonacci(5)
-    expected = 7
+    actual = fibonacci(9)
+    expected = 21
     assert actual == expected
 
 def test_three():
-    actual = lucus(5)
-    expected = 7
+    actual = lucus(9)
+    expected = 76
     assert actual == expected
 
 def test_four():
-    actual = sum_series(5, 2, 1)
-    expected = 7
+    actual = sum_series(9, 2, 1)
+    expected = 47
     assert actual == expected

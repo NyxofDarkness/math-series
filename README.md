@@ -11,6 +11,7 @@ Approach & Efficiency
 BigO: Time:O(1) Time is constant, not effected Space:O(n) Linear
 
 Solution
+
 math-series Whiteboard
 
 ![Math-series Whiteboard](assets/math-series.png)

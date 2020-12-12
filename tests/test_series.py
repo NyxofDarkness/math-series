@@ -8,9 +8,9 @@ import math
 def test_version():
     assert __version__ == '0.1.0'
 # utility function returns true if x is a square root
-def isPerfectSquare(x):
-    s = int(math.sqrt(x))
-    return s*s == x
+def isPerfectSquare(n):
+    s = int(math.sqrt(n))
+    return s*s == n
 
 # returns true if fibonnacci number
 def is_this_fibonacci(n):
@@ -30,16 +30,16 @@ def test_one():
     assert actual == expected
 
 def test_two():
-    actual = fibonacci(5)
-    expected = 7
+    actual = fibonacci(9)
+    expected = 34
     assert actual == expected
 
 def test_three():
     actual = lucus(5)
-    expected = 7
+    expected = 11
     assert actual == expected
 
 def test_four():
-    actual = sum_series(5, 2, 1)
-    expected = 7
+    actual = sum_series(3, 2, 1)
+    expected = 4
     assert actual == expected
